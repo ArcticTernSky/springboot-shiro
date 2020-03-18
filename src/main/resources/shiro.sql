@@ -14,7 +14,7 @@ Date: 2017-05-07 21:00:04
 */
 
 SET FOREIGN_KEY_CHECKS=0;
-
+use shiro;
 -- ----------------------------
 -- Table structure for `resources`
 -- ----------------------------
@@ -135,6 +135,7 @@ INSERT INTO `user` VALUES ('17', 'user16', 'user16', '1');
 INSERT INTO `user` VALUES ('18', 'user17', 'user17', '1');
 INSERT INTO `user` VALUES ('19', 'user18', 'user18', '1');
 INSERT INTO `user` VALUES ('21', 'user20', 'user20', '1');
+INSERT INTO `user` VALUES ('22', 'acmday', 'acmday', '1');
 
 -- ----------------------------
 -- Table structure for `user_role`
